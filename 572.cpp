@@ -8,7 +8,7 @@ int  m, n;
 int aux_i[] = {1, 1, 1, 0, -1, -1, -1, 0};
 int aux_j[] = {-1, 0, 1, 1, 1, 0, -1, -1};
 
-void busqueda(int x, int y){
+void busqueda(int x, int y, int &d, int &a){
     visited[x][y] = 1;
     int I, J;
 

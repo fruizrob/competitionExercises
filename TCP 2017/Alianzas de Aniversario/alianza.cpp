@@ -11,10 +11,7 @@ using namespace std;
 
 
 int main(){
-  int p; // Presupuesto
-  int n; // Cantidad de alimentos
-  vector<unsigned> costo; // Costo asociado a cada alimento
-  vector<unsigned> puntaje; // Puntaje asociado a cada alimento
+ 
 
   cin >> p; // Entrada
   cin >> n;
