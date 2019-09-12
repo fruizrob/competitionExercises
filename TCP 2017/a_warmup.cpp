@@ -11,7 +11,9 @@ using namespace std;
 
 
 int main(){
- 
+  int n, p;
+  vector<int> costo;
+  vector<int> puntaje;
 
   cin >> p; // Entrada
   cin >> n;
